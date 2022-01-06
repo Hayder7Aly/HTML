@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Input Tag Html</title>
+    <style>
+        body{
+            background-color: tomato;
+            color: black;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form action="backend.py">
+        <label for="name">NAME</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="role">ROLE </label>
+        <div>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <label for="email">E-MAIL</label>
+        <div>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <label for="password">PASSWORD</label>
+        <div>
+            <input type="password" name="myPassword" id="password">
+        </div>
+        <br>
+        <label for="date">Date</label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <label for="bonus">BONUS</label>
+        <div>
+            <input type="number" name="myBonus" id="bonus">
+        </div>
+        <br>
+        <label for="elig">ARE YOU ELEGIBILTY ?</label>
+        <input type="checkbox" name="myquestion" id="elig" checked>
+        <br>
+        <br>
+        <label for="gender">GENDER</label>
+        <div>
+            <input type="radio" name="myGender" id="gender">MALE
+            <input type="radio" name="myGender" id="gender">FEMALE
+            <input type="radio" name="myGender" id="gender">OTHER
+        </div>
+        <br><br>
+        <label for="description">WRITE ABOUT OUR WEBSITE ?</label>
+        <div>
+            <textarea name="descript" id="description" cols="100" rows="5">Haider HTML first website enjoy it and let's started !</textarea>
+        </div>
+
+        <br><br>
+
+
+        <label for="car">CARS</label>
+        <div>
+            <select name="mycar" id="car">
+                <option value="Indica">Indica</option>
+                <option value="Auti Auto">Audi auto</option>
+                <option value="Suzuki" selected>Suzuki</option>
+            </select>
+        </div>
+
+        <br><br>
+        <div>
+            <input type="submit" value="SUBMIT NOW !">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="RESET NOW !">
+        </div>
+
+    </form>
+</body>
+
+</html>
